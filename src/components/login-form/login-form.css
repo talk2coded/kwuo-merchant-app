@@ -1,0 +1,166 @@
+div.form{
+  margin-top: 100px;
+  display: block;
+  text-align: left;
+ 
+
+}
+
+.form-header{
+  text-align: left;
+ width: 297px;
+height: 44px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+
+/* kwuo pri variant */
+
+color: #006A30;
+}
+a.forgot-pass{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+.form-subheader{
+  text-align: left;
+width: 500px;
+height: 22px;
+padding-bottom: 60px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+
+color: #000000;
+
+}
+
+label{
+display: block;
+width: 151px;
+height: 22px;
+text-align: left;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+.input1{
+display: block;
+width: 400px;
+height: 71px;
+background: #FFFFFF;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 7px;
+padding-left: 40px;
+}
+
+.input1:focus{
+  outline: none;
+}
+
+.form-group > svg{
+  position: absolute;
+  top: 50px;
+  left: 355px;
+  cursor: pointer;
+}
+
+.form-group3 > svg{
+  position: absolute;
+  top: 50px;
+  left: 355px;
+  cursor: pointer;
+}
+
+button:enabled{
+  background-color: #000000;
+  color: #ffffff;
+}
+
+button:disabled{
+  background-color:  #C4C4C4;
+  color: #000000;
+}
+
+.btn-block{  
+width: 300px;
+height: 80px;
+background: #C4C4C4;
+border-radius: 50px;
+
+}
+.buttons{
+  margin-top: 60px;
+}
+
+a.register{
+  margin-top: 50px;
+  padding-left: 30px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+width: 357px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+.border{
+  border: 2px solid red;
+}
+
+@media (max-width: 700px) { 
+    .form-header{
+      text-align: center;
+      width: auto;
+      padding-bottom: 80px;
+    }
+    .form-subheader{
+      width: auto;
+      font-size: 15px;
+      text-align: left;
+      padding-bottom: 80px;
+    }
+    .input1{
+      width: 250px;
+    }
+    .form-group > svg{
+      position: absolute;
+      top: 50px;
+      left: 200px;
+    }
+    button{
+      width: 300px;
+    }
+}
