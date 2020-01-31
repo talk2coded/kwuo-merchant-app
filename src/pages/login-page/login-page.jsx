@@ -7,10 +7,10 @@ const LoginPage = () =>(
    <div>
         <div className="container-fluid">
             <div className="row">
-                <div className="col-md-6">
+                <div className="col-xl-6 col-lg-6">
                     <FormImage/>
                 </div>
-                <div className="col-md-6">
+                <div className="col-xl-6 col-lg-6">
                     <LoginForm/>
                 </div>
             </div>

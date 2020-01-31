@@ -1,0 +1,130 @@
+div.reg-form{
+    margin-top: 100px;
+}
+
+.reg-header{
+text-align: left;
+   width: auto;
+  height: 44px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 44px;
+  /* identical to box height */
+  
+  letter-spacing: 0.05em;
+  
+  /* kwuo pri variant */
+  
+  color: #006A30;
+}
+
+.reg-subheader{
+  text-align: left;
+  width: auto;
+  padding-bottom: 20px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  
+  letter-spacing: 0.05em;
+  
+  color: #000000;
+  
+  }
+
+  div.svg > svg{
+    position: absolute;
+    top: 20px;
+    left: 360px;
+    cursor: pointer;
+  }
+
+  input.input-reg{
+    display: block;
+    width: 400px;
+    height: 71px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 7px;
+    padding-left: 40px;
+
+  }
+
+  a.register{
+    margin-top: 50px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  width: 357px;
+  /* identical to box height */
+  
+  letter-spacing: 0.05em;
+  
+  color: #000000;
+  }
+
+  .reg-btn{
+    width: 300px;
+    height: 80px;
+    background: #C4C4C4;
+    border-radius: 50px;
+    margin-left: 20px;
+  }
+@media (max-width: 768px){
+
+    div.reg-form{
+        margin-top: 50px;
+    }
+    .reg-header{
+        font-size: 20px;
+      
+    }
+
+    div.svg > svg{
+        position: absolute;
+        top: 20px;
+        left: 200px;
+        cursor: pointer;
+      }
+
+      input.input-reg{
+          width: 250px;
+      }
+    
+}
+
+@media only screen and (max-width: 375px) {
+    .reg-header {
+      font-size: 16px;
+    }
+
+    div.svg > svg{
+    
+        left: 200px;
+   
+      }
+  
+     
+  }
+
+  @media only screen and (max-width: 320px) {
+ 
+
+    
+      div.reg-form {
+        margin-left: -30px;
+      }
+     
+  }
+
+ 
+
+  

@@ -112,7 +112,7 @@ class LoginForm extends React.Component{
         let val2 = evt.target.value;
         let border2=document.getElementById('input2');
         let svg2=document.getElementById('path2');
-        let btn = document.getElementById('submit');
+       
         if(val2.length < 6 ){
             border2.style.border = '2px solid #ff3a44';
              svg2.style.stroke = '#ff3a44';
@@ -161,7 +161,7 @@ class LoginForm extends React.Component{
         const isEnabled = this.canBeSubmitted();
 
         return(
-            <div className="form">
+            <div className="login-form">
     
     <form className="text-center border border-light p-5" onSubmit={this.handleSubmit}>
         <div className="form-group">
@@ -169,8 +169,13 @@ class LoginForm extends React.Component{
         <p className="h4 mb-4 form-subheader">Request and recieve payments for transactions using kwuo</p>
         </div>
 
-        <div className="form-group position-relative">
-        <label>Phone number</label>
+       
+
+        
+        <div className="form-row mb-4">
+        <div className="col-xl-12 col-lg-6 col-md-6">
+        <div className="col form-group position-relative">
+        <label className="login-label">Phone number</label>
         <input className=" mb-4 input1" placeholder="Phone Number" name='phoneno' id="input1" required="required" onChange={this.handlePhoneChange} value={this.state.phoneno}/>
         <svg width="30" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg" id="img">
         <path fill-rule="evenodd" clip-rule="evenodd" id="path" d="M16.0428 27.2358L16.0548 27.2431C18.1906 28.6128 20.9847 28.3044 22.7748 26.5012L23.5308 25.7399C24.2335 25.0322 24.2335 23.8849 23.5308 23.177L20.3484 19.9725C19.6456 19.2649 18.5062 19.2649 17.8032 19.9725C17.4657 20.3127 17.0076 20.5038 16.53 20.5038C16.0524 20.5038 15.5944 20.3127 15.2568 19.9725L10.164 14.8468C9.46133 14.1391 9.46133 12.9918 10.164 12.2839C10.5018 11.944 10.6916 11.4828 10.6916 11.0019C10.6916 10.521 10.5018 10.0598 10.164 9.71984L6.98161 6.51655C6.27871 5.80898 5.13931 5.80898 4.43641 6.51655L3.68041 7.27659C1.88964 9.07922 1.58329 11.8927 2.94361 14.0432L2.95081 14.0553C6.43856 19.2507 10.8827 23.7248 16.0428 27.2358Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -179,10 +184,11 @@ class LoginForm extends React.Component{
         <path d="M14.6988 0.90625C22.6517 0.90625 29.0988 7.39812 29.0988 15.4063" stroke="black" stroke-width="1.5"  stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
         
-        </div>
-
-        <div className="form-group form-group-3 position-relative">
-        <label className="label1">Password</label>
+        </div></div>
+        <div className="col-xl-12 col-lg-12 col-md-6">
+        
+        <div className="col form-group form-group-3 position-relative">
+        <label className="login-label label1">Password</label>
         <input type="password" id="input2" className="mb-4 input1" placeholder="Password" required="required" name="pass" onChange={this.handlePasswordChange} value={this.state.password}/>
         <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" id="img" onClick={this.handleClick}>
         <path d="M3.47748 26.25L26.915 3.75" stroke="black" id="path2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -193,14 +199,17 @@ class LoginForm extends React.Component{
         </svg>
 
         </div>
+        </div>
+    </div>
+
     
-        <div className="d-flex justify-content-left">
+        <div className="d-flex">
             <div>
                 <a href="#" className="forgot-pass">Forgot password?</a>
             </div>
         </div>
     <div className="d-flex justify-content-left buttons">
-        <button className="btn  btn-block my-4" type="submit" id="submit" disabled={!isEnabled} >Sign in</button> <a href="" className="register">Not a Merchant? Register</a>
+        <button className=" login-btn btn  btn-block my-4" type="submit" id="submit" disabled={!isEnabled} >Sign in</button> <a href="" className="login">Not a Merchant? Register</a>
         </div>
     
     </form>
