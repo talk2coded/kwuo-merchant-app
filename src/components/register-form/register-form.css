@@ -40,13 +40,13 @@ text-align: left;
   div.svg > svg{
     position: absolute;
     top: 20px;
-    left: 360px;
+    left: 230px;
     cursor: pointer;
   }
 
   input.input-reg{
     display: block;
-    width: 400px;
+    width: 270px;
     height: 71px;
     background: #FFFFFF;
     border: 1px solid #000000;
