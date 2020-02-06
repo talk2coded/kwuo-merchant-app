@@ -98,8 +98,9 @@ button.reg-btn:disabled{
     }
     .reg-header{
         font-size: 20px;
-      
+     
     }
+    
 
     div.svg > svg{
         position: absolute;
@@ -117,6 +118,7 @@ button.reg-btn:disabled{
 @media only screen and (max-width: 375px) {
     .reg-header {
       font-size: 16px;
+      
     }
 
     div.svg > svg{

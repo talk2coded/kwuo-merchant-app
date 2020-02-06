@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './register-form.css';
 
 class RegisterForm extends React.Component{
@@ -199,7 +200,7 @@ class RegisterForm extends React.Component{
     </div>
 
     <div className="d-flex justify-content-left buttons">
-    <a href="" className="register">Already a Merchant? Sign In</a> <button className=" reg-btn btn  btn-block my-4" type="submit" id="submit" disabled={!isEnabled} >Register</button>
+    <Link to="/" className="register">Already a Merchant? Sign In</Link> <button className=" reg-btn btn  btn-block my-4" type="submit" id="submit" disabled={!isEnabled} >Register</button>
     </div>
 
         </form>

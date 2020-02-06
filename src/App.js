@@ -4,6 +4,7 @@ import './App.css';
 import LoginPage from './pages/login-page/login-page';
 import RegisterPage from './pages/register-page/register-page';
 import RecoverpasswordPage from './pages/recover-password-page/recover-password-page';
+import LoadingPage from './pages/loading-state-page/loading-state-page';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route exact path='/' component={LoginPage}/>
         <Route exact path='/register' component={RegisterPage}/>
         <Route exact path='/recoverpassword' component={RecoverpasswordPage}/>
+        <Route exact path='/loading' component={LoadingPage}/>
       </Switch>
     </div>
   );

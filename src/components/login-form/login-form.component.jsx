@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './login-form.css';
 
 class LoginForm extends React.Component{
@@ -8,7 +9,8 @@ class LoginForm extends React.Component{
 
         this.state = {
             phoneno: "",
-            password: ""
+            password: "",
+            loader: true
         };
       
         
@@ -143,7 +145,12 @@ class LoginForm extends React.Component{
         if (!this.canBeSubmitted()) {
           evt.preventDefault();
           return;
+        } else {
+          evt.preventDefault();
+          this.props.loginState(this.state); 
         }
+
+        
         // actual submit logic...
       };
       
@@ -205,11 +212,11 @@ class LoginForm extends React.Component{
     
         <div className="d-flex">
             <div>
-                <a href="#" className="forgot-pass">Forgot password?</a>
+                <Link to="/recoverpassword" className="forgot-pass">Forgot password?</Link>
             </div>
         </div>
     <div className="d-flex justify-content-left buttons">
-        <button className=" login-btn btn  btn-block my-4" type="submit" id="submit" disabled={!isEnabled} >Sign in</button> <a href="" className="login">Not a Merchant? Register</a>
+        <button className=" login-btn btn  btn-block my-4" type="submit" id="submit" disabled={!isEnabled} >Sign in</button><Link to="/register" className="login">Not a Merchant? Register</Link>
         </div>
     
     </form>
