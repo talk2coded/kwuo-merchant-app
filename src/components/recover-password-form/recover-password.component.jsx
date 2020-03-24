@@ -23,7 +23,7 @@ const RecoverpasswordForm = () =>(
         </div>
 
         <div className="d-flex justify-content-left">
-        <button className=" rec-btn btn  btn-block my-4" type="submit" id="submit" >Continue</button> 
+        <button className=" rec-btn btn  btn-block " type="submit" id="submit" >Continue</button> 
         </div>
         
     </div>
