@@ -8,8 +8,8 @@ const HomeComponent = () => (
   
   
        <div className="container-fluid home-comp">
-       <div className="cont row">
-           <div className="col-md-6">
+       <div className="row">
+           <div className="col-lg-6">
                <div className="kwuo-balance">
                <div className="bg1"></div>
                <div className="bg2">
@@ -23,7 +23,11 @@ const HomeComponent = () => (
                </div>
            </div>
            
-           <div className="col-md-6"></div>
+           <div className="col-lg-6">
+               <div className="kwuo-balance trans-brk-dwn h5">
+                <h5>Transaction breakdown</h5>                      
+               </div>
+           </div>
        </div>
    </div>
         
