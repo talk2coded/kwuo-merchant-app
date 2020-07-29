@@ -148,6 +148,7 @@ button.reg-btn:disabled{
 
     input.input-reg{
       margin-left: 200px;
+      width: auto;
   }
 
     }
