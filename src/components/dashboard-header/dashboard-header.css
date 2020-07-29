@@ -1,0 +1,51 @@
+li.settings{
+    margin: 20px;
+}
+
+li.human{
+    margin: 20px;
+    margin-right: 20px;
+}
+
+.app-aside{
+    background-color: #00c158 ;
+}
+
+.menu-text{
+    margin: 20px;
+    font-weight: lighter;
+}
+
+.menu-item{
+    text-align: left;
+}
+
+/* .welcome-text{
+    margin-left: -60px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+
+} */
+.welcome-text2{
+    color: #ffffff;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+
+}
+
+ul.menu{
+    margin-top: 80px;
+}
+
+i.material-icons{
+    color: b;
+}

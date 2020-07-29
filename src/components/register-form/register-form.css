@@ -3,8 +3,8 @@ div.reg-form{
 }
 
 .reg-header{
-text-align: left;
-   width: auto;
+  text-align: left;
+  width: auto;
   height: 44px;
   font-family: Montserrat;
   font-style: normal;
@@ -53,7 +53,7 @@ text-align: left;
     box-sizing: border-box;
     border-radius: 7px;
     padding-left: 40px;
-
+    
   }
   .input-reg:focus{
       outline: none;
