@@ -211,6 +211,29 @@ button.reg-btn:disabled{
 
     }
 
+    @media (min-width: 1500px) and (max-width: 1790.98px) { 
+      input.input-reg{
+        width: 280px;
+      
+    }
+  
+    input.input-reg1{
+      width: 280px;
+  }
+
+  div.svg > svg{
+    
+    left: 390px;
+   
+  }
+
+  div.svg5 > svg{
+   
+    left: 350px;
+   
+  }
+     }
+
  
 
   

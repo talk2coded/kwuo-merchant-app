@@ -146,7 +146,7 @@ class RegisterForm extends React.Component{
         </div>
 
         <div className="form-row mb-4">
-            <div className=" svg col-xl-6 col-lg-12 position-relative">
+            <div className=" svg col-xl-6 col-lg-4 col-md-6 position-relative">
             
                 <input type="text" id="fname" className="input-reg" required="required" placeholder="First name" value={this.state.firstname} onChange={this.handleFirstnameChange}/>
                 <svg width="25" height="28" viewBox="0 0 25 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -155,7 +155,7 @@ class RegisterForm extends React.Component{
                 <br/>
                 
             </div>
-            <div className="svg5 col-xl-6  col-lg-12  position-relative">
+            <div className="svg5 col-xl-6  col-lg-4 col-md-6 position-relative">
             
                 <input type="text" id="lname" className=" input-reg1" placeholder="Last name" required="required" value={this.state.lname} onChange={this.handleLastnameChange}/>
                 <svg width="25" height="28" viewBox="0 0 25 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -166,7 +166,7 @@ class RegisterForm extends React.Component{
         </div>
 
         <div className="form-row mb-4">
-            <div className="svg col-xl-6 col-lg-12 position-relative">
+            <div className="svg col-xl-6 col-lg-4 col-md-6 position-relative">
             
             <input id="phone" className="input-reg" placeholder="Phone number"  required="required" value={this.state.phoneno} onChange={this.handlePhonenumberChange}/>
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -174,7 +174,7 @@ class RegisterForm extends React.Component{
             </svg>
             <br/>
             </div>
-            <div className="svg5 col-xl-6 col-lg-12 position-relative">
+            <div className="svg5 col-xl-6 col-lg-4 col-md-6 position-relative">
             
             <input type="email" id="email" className="input-reg1 mb-4 input-reg" placeholder="E-mail" required="required" value={this.state.email} onChange={this.handleEmailChange}/>
             <svg width="28" height="20" viewBox="0 0 28 20" fill="none" xmlns="http://www.w3.org/2000/svg">
