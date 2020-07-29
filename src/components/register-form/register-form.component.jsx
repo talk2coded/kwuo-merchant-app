@@ -1,6 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './register-form.css';
+import clsx from 'clsx';
+import { makeStyles } from '@material-ui/core/styles';
+import IconButton from '@material-ui/core/IconButton';
+import Input from '@material-ui/core/Input';
+import FilledInput from '@material-ui/core/FilledInput';
+import OutlinedInput from '@material-ui/core/OutlinedInput';
+import InputLabel from '@material-ui/core/InputLabel';
+import InputAdornment from '@material-ui/core/InputAdornment';
+import FormHelperText from '@material-ui/core/FormHelperText';
+import FormControl from '@material-ui/core/FormControl';
+import TextField from '@material-ui/core/TextField';
+import Visibility from '@material-ui/icons/Visibility';
+import VisibilityOff from '@material-ui/icons/VisibilityOff';
 
 class RegisterForm extends React.Component{
         constructor(props){
@@ -162,6 +175,7 @@ class RegisterForm extends React.Component{
                 <path id="svg2" d="M24 27C23.2256 21.2132 18.3108 16.8943 12.5 16.8943C6.68921 16.8943 1.77438 21.2132 1 27M12.5 14C16.0726 14 18.9688 11.0898 18.9688 7.49999C18.9688 3.91015 16.0726 1 12.5 1C8.92741 1 6.03125 3.91015 6.03125 7.49999C6.03125 11.0898 8.92741 14 12.5 14Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
             </div>
+            
         </div>
 
         <div className="form-row mb-4">

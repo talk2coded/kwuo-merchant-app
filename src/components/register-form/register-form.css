@@ -29,7 +29,7 @@ div.reg-form{
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
-  /* identical to box height */
+ 
   
   letter-spacing: 0.05em;
   
@@ -53,6 +53,8 @@ div.reg-form{
     box-sizing: border-box;
     border-radius: 7px;
     padding-left: 40px;
+    
+  
     
   }
   .input-reg:focus{
@@ -139,6 +141,16 @@ button.reg-btn:disabled{
       }
      
   }
+
+
+
+   @media (min-width: 1500px) { 
+
+    input.input-reg{
+      margin-left: 200px;
+  }
+
+    }
 
  
 
