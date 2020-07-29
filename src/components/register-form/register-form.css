@@ -40,19 +40,41 @@ div.reg-form{
   div.svg > svg{
     position: absolute;
     top: 20px;
-    left: 230px;
+    left: 210px;
+    cursor: pointer;
+  }
+  div.svg5 > svg{
+    position: absolute;
+    top: 20px;
+    left: 210px;
     cursor: pointer;
   }
 
   input.input-reg{
     display: block;
-    width: 270px;
+    width: 250px;
     height: 71px;
     background: #FFFFFF;
     border: 1px solid #000000;
     box-sizing: border-box;
     border-radius: 7px;
     padding-left: 40px;
+    
+    
+  
+    
+  }
+
+  input.input-reg1{
+    display: block;
+    width: 250px;
+    height: 71px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 7px;
+    padding-left: 40px;
+    
     
   
     
@@ -147,8 +169,45 @@ button.reg-btn:disabled{
    @media (min-width: 1500px) { 
 
     input.input-reg{
-      margin-left: 200px;
+      margin-left: 150px;
+      display: block;
+      width: 350px;
+      height: 71px;
+      background: #FFFFFF;
+      border: 1px solid #000000;
+      box-sizing: border-box;
+      border-radius: 7px;
+      padding-left: 40px;
+        
   }
+
+  input.input-reg1{
+    margin-left: 120px;
+    display: block;
+    width: 350px;
+    height: 71px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 7px;
+    padding-left: 40px;
+      
+}
+  div.svg > svg{
+    position: absolute;
+    top: 20px;
+    left: 450px;
+    cursor: pointer;
+  }
+
+  div.svg5 > svg{
+    position: absolute;
+    top: 20px;
+    left: 420px;
+    cursor: pointer;
+  }
+  
+  
 
     }
 

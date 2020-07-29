@@ -180,7 +180,7 @@ class LoginForm extends React.Component{
 
         
         <div className="form-row mb-4">
-        <div className="col-xl-12 col-lg-6 col-md-6">
+        <div className="col-xl-12 col-lg-12 col-md-12">
         <div className="col form-group position-relative">
         <label className="login-label">Phone number</label>
         <input className=" mb-4 input1" placeholder="Phone Number" name='phoneno' id="input1" required="required" onChange={this.handlePhoneChange} value={this.state.phoneno}/>
@@ -192,7 +192,7 @@ class LoginForm extends React.Component{
         </svg>
         
         </div></div>
-        <div className="col-xl-12 col-lg-12 col-md-6">
+        <div className="col-xl-12 col-lg-12 col-md-12">
         
         <div className="col form-group form-group-3 position-relative">
         <label className="login-label label1">Password</label>

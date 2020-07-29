@@ -1,19 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './register-form.css';
-import clsx from 'clsx';
-import { makeStyles } from '@material-ui/core/styles';
-import IconButton from '@material-ui/core/IconButton';
-import Input from '@material-ui/core/Input';
-import FilledInput from '@material-ui/core/FilledInput';
-import OutlinedInput from '@material-ui/core/OutlinedInput';
-import InputLabel from '@material-ui/core/InputLabel';
-import InputAdornment from '@material-ui/core/InputAdornment';
-import FormHelperText from '@material-ui/core/FormHelperText';
-import FormControl from '@material-ui/core/FormControl';
-import TextField from '@material-ui/core/TextField';
-import Visibility from '@material-ui/icons/Visibility';
-import VisibilityOff from '@material-ui/icons/VisibilityOff';
 
 class RegisterForm extends React.Component{
         constructor(props){
@@ -159,7 +146,7 @@ class RegisterForm extends React.Component{
         </div>
 
         <div className="form-row mb-4">
-            <div className=" svg col-xl-6 col-md-6 position-relative">
+            <div className=" svg col-xl-6 col-lg-12 position-relative">
             
                 <input type="text" id="fname" className="input-reg" required="required" placeholder="First name" value={this.state.firstname} onChange={this.handleFirstnameChange}/>
                 <svg width="25" height="28" viewBox="0 0 25 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -168,9 +155,9 @@ class RegisterForm extends React.Component{
                 <br/>
                 
             </div>
-            <div className="svg col-xl-6  col-md-6  position-relative">
+            <div className="svg5 col-xl-6  col-lg-12  position-relative">
             
-                <input type="text" id="lname" className=" input-reg" placeholder="Last name" required="required" value={this.state.lname} onChange={this.handleLastnameChange}/>
+                <input type="text" id="lname" className=" input-reg1" placeholder="Last name" required="required" value={this.state.lname} onChange={this.handleLastnameChange}/>
                 <svg width="25" height="28" viewBox="0 0 25 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path id="svg2" d="M24 27C23.2256 21.2132 18.3108 16.8943 12.5 16.8943C6.68921 16.8943 1.77438 21.2132 1 27M12.5 14C16.0726 14 18.9688 11.0898 18.9688 7.49999C18.9688 3.91015 16.0726 1 12.5 1C8.92741 1 6.03125 3.91015 6.03125 7.49999C6.03125 11.0898 8.92741 14 12.5 14Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
@@ -179,7 +166,7 @@ class RegisterForm extends React.Component{
         </div>
 
         <div className="form-row mb-4">
-            <div className="svg col-xl-6 col-md-6 position-relative">
+            <div className="svg col-xl-6 col-lg-12 position-relative">
             
             <input id="phone" className="input-reg" placeholder="Phone number"  required="required" value={this.state.phoneno} onChange={this.handlePhonenumberChange}/>
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -187,9 +174,9 @@ class RegisterForm extends React.Component{
             </svg>
             <br/>
             </div>
-            <div className="svg col-xl-6 col-md-6 position-relative">
+            <div className="svg5 col-xl-6 col-lg-12 position-relative">
             
-            <input type="email" id="email" className="input-reg mb-4 input-reg" placeholder="E-mail" required="required" value={this.state.email} onChange={this.handleEmailChange}/>
+            <input type="email" id="email" className="input-reg1 mb-4 input-reg" placeholder="E-mail" required="required" value={this.state.email} onChange={this.handleEmailChange}/>
             <svg width="28" height="20" viewBox="0 0 28 20" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path id="svg4" d="M26.2248 3.46898e-10H1.77524C1.30442 3.46899e-10 0.852877 0.19134 0.519955 0.531928C0.187033 0.872516 0 1.33445 0 1.81612V18.1839C0 18.6655 0.187033 19.1275 0.519955 19.4681C0.852877 19.8087 1.30442 20 1.77524 20H26.2248C26.6956 20 27.1471 19.8087 27.48 19.4681C27.813 19.1275 28 18.6655 28 18.1839V1.80477C27.9971 1.32507 27.8087 0.866046 27.4761 0.527909C27.1435 0.189772 26.6937 -9.36897e-06 26.2248 3.46898e-10ZM26.9415 1.81612V17.6731L18.5646 9.09194L26.9371 1.73439C26.9393 1.7639 26.9415 1.78434 26.9415 1.80477V1.81612ZM1.05848 17.6095V1.80477C1.05848 1.79115 1.05848 1.7798 1.05848 1.76617L9.38659 9.08059L1.05848 17.6095ZM1.88397 1.07378H26.0872L13.9867 11.6981L1.88397 1.07378ZM1.77524 18.9035C1.63821 18.9046 1.5039 18.8643 1.38913 18.7877L10.1943 9.78207L13.645 12.8127C13.7402 12.896 13.8614 12.9418 13.9867 12.9418C14.112 12.9418 14.2332 12.896 14.3284 12.8127L17.7657 9.79342L26.5776 18.8082C26.4702 18.8712 26.3485 18.904 26.2248 18.9035H1.77524Z" fill="#231F20"/>
             </svg>
