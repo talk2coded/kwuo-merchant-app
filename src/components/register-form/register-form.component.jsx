@@ -142,7 +142,7 @@ class RegisterForm extends React.Component{
 
         <div className="form-group">
         <p className="h4 mb-4 reg-header">Become a Merchant</p>
-        <p className="h4 mb-4 reg-subheader">Request and recieve payments for transactions using kwuo</p>
+        <p className="h4 mb-4 reg-subheader">Request and recieve payments for transactions using kwuo.</p>
         </div>
 
         <div className="form-row mb-4">
