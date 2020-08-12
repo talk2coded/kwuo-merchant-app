@@ -169,7 +169,7 @@ button.reg-btn:disabled{
    @media (min-width: 1500px) { 
 
     input.input-reg{
-      margin-left: 150px;
+      /* margin-left: 150px; */
       display: block;
       width: 350px;
       height: 71px;
@@ -182,7 +182,7 @@ button.reg-btn:disabled{
   }
 
   input.input-reg1{
-    margin-left: 120px;
+    /* margin-left: 120px; */
     display: block;
     width: 350px;
     height: 71px;
@@ -196,20 +196,43 @@ button.reg-btn:disabled{
   div.svg > svg{
     position: absolute;
     top: 20px;
-    left: 450px;
+    left: 300px;
     cursor: pointer;
   }
 
   div.svg5 > svg{
     position: absolute;
     top: 20px;
-    left: 420px;
+    left: 300px;
     cursor: pointer;
   }
   
   
 
     }
+
+    @media (min-width: 1500px) and (max-width: 1790.98px) { 
+      input.input-reg{
+        width: 280px;
+      
+    }
+  
+    input.input-reg1{
+      width: 280px;
+  }
+
+  div.svg > svg{
+    
+    left: 230px;
+   
+  }
+
+  div.svg5 > svg{
+   
+    left: 230px;
+   
+  }
+     }
 
  
 
