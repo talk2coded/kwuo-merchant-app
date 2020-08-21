@@ -1,0 +1,141 @@
+.kwuo-bal-overlay{
+    background: #00C158;
+opacity: 0.05;
+/* title card */
+
+box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
+border-radius: 150px 0px 0px 150px;
+transform: rotate(-180deg);
+height: 200px;
+margin-top: -150px;
+}
+
+.send-kwuo-overlay{
+    background: #FF3A44;
+opacity: 0.05;
+/* title card */
+
+box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
+border-radius: 50px 0px 0px 50px;
+transform: rotate(-180deg);
+height: 150px;
+margin-top: -120px;
+}
+
+.buy-kwuo-overlay{
+background: #FF3A44;
+opacity: 0.05;
+/* title card */
+
+box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
+border-radius: 50px 0px 0px 50px;
+transform: rotate(-360deg);
+height: 150px;
+margin-top: -120px;
+}
+
+.inline{
+    display: inline-flex;
+    margin-top: 100px;
+
+}
+
+.kwuo-bal img{
+    margin-left: 30px;
+    height: 70px;
+    width: 70px;
+   
+}
+
+
+.kwuo-bal h2{
+font-weight: 600;
+color: #000000;
+text-align: left;
+}
+
+.send-kwuo img{
+    margin-left: 30px;
+   
+}
+
+.buy-kwuo img{
+    margin-right: 30px;
+}
+
+.send-kwuo h3{
+
+color: #000000;
+
+}
+
+
+.kwuo-table td{
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: 1px solid black;
+}
+
+.kwuo-table{
+   margin: auto;
+}
+
+.table1{
+    margin-top: 70px;
+}
+
+div.recent-transactions{
+    margin-top: 100px;
+}
+
+div.recent-transactions h3{
+   text-align: left;
+   font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 34px;
+letter-spacing: 0.05em;
+
+color: #000000;
+margin-bottom: 30px;
+}
+
+table.recent-transactions tr:nth-child(odd){
+    background-color: #e5f3eb;
+   
+}
+
+table.recent-transactions tr:nth-child(even){
+    background-color: rgb(248, 239, 241);
+}
+
+table.recent-transactions th {
+    background-color: white;
+ }
+
+@media (max-width: 575.98px) { 
+    .kwuo-bal img{
+        margin-left: 10px;
+        height: 50px;
+        width: 50px;
+    }
+
+    .send-kwuo img{
+        margin-left: 10px;
+        height: 50px;
+        width: 50px;
+    }
+
+    .buy-kwuo img{
+        margin-right: 10px;
+        height: 50px;
+        width: 50px;
+    }
+
+    .inline{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+ }
+
