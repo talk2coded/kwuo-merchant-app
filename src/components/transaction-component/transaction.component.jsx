@@ -1,7 +1,5 @@
 import React from 'react';
-import './home.component.css';
-import kwuobal from '../../assets/images/kwuo bal2.png';
-import sendkwuo from '../../assets/images/send units.svg';
+import './transaction.component.css';
 import clsx from 'clsx';
 import Hidden from '@material-ui/core/Hidden';
 import { makeStyles } from '@material-ui/core/styles';
@@ -246,37 +244,29 @@ export default function Dashboard() {
         <div className={classes.appBarSpacer} />
         <Container maxWidth="lg" className={classes.container}>
           <Grid container spacing={3}>
-        
             <Grid item xs={12} md={5} lg={5}>
-              
-           
-                <div className="kwuo-bal inline">
-                 <div>
-                  <h6>CURRENT KWUO BALANCE</h6>
-                  <h2>1000.00</h2>
-                 </div>
-                  <img src={kwuobal} alt="kwuo-bal -icon" />
-                </div>
-                <div className="kwuo-bal-overlay"></div>
+               <h3 className="trans">Transactions</h3>
+               <div className="total-kwuo inline">
+             <div>
+              <h4>Total kwuo received</h4>
+              <h5>1000.00</h5>
+             </div>
+             
+            </div>
+            <div className="received-kwuo-overlay"></div>
+          
               
             </Grid>
             <Grid item xs={12} md={2} lg={2}></Grid>
             <Grid item xs={12} md={5} lg={5}>
-            <div className="table1">
-                <h3>Transaction Breakdown</h3>
-                <table className="kwuo-table">
-                  <tr>
-                    <td>Today</td>
-                    <td>This week</td>
-                    <td>This month</td>
-                  </tr>
-                  <tr>
-                    <td><b>2000</b></td>
-                    <td><b>2000</b></td>
-                    <td><b>2000</b></td>
-                  </tr>
-                </table>
+            <br/><br/>
+                <div className="sent-kwuo inline">
+                <div>
+                <h4>Total kwuo sent</h4>
+                <h5>1000.00</h5>
+                </div>
             </div>
+            <div className="sent-kwuo-overlay"></div>
             </Grid>
           </Grid>
           {/*<Box pt={4}>
@@ -287,35 +277,30 @@ export default function Dashboard() {
         
             <Grid item xs={12} md={5} lg={5}>
               
-           
-                <div className="send-kwuo inline">
-                 <div>
-                  <h3>Send Kwuo</h3>
-                  <h6>Enjoy seamless transfers</h6>
-                 </div>
-                  <img src={sendkwuo} alt="send-kwuo-icon" />
-                </div>
-                <div className="send-kwuo-overlay"></div>
-              
+                <div className="table1">
+                <h3>Transaction Breakdown</h3>
+                <table className="kwuo-table">
+                <tr>
+                    <td>Today</td>
+                    <td>This week</td>
+                    <td>This month</td>
+                </tr>
+                <tr>
+                    <td><b>2000</b></td>
+                    <td><b>2000</b></td>
+                    <td><b>2000</b></td>
+                </tr>
+                </table>
+            </div>
+                
             </Grid>
             <Grid item xs={12} md={2} lg={2}></Grid>
             
-            <Grid item xs={12} md={5} lg={5}>
-            <div className="buy-kwuo inline">
-            <img src={sendkwuo} alt="send-kwuo-icon" />
-             <div>
-              <h4>Buy Kwuo units</h4>
-              <h6>Get more value for your money</h6>
-             </div>
-             
-            </div>
-            <div className="buy-kwuo-overlay"></div>
-          
-        </Grid>
+            <Grid item xs={12} md={5} lg={5}></Grid>
 
         <Grid item xs={12} md={12} lg={12}>
         <div className="recent-transactions">
-        <h3>Recent Transactions</h3>
+        <h3>Details of Transaction</h3>
         <table class="table recent-transactions">
         <thead>
           <tr>

@@ -1,0 +1,110 @@
+
+.sent-kwuo-overlay{
+    background: #FF3A44;
+opacity: 0.05;
+/* title card */
+
+box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
+border-radius: 50px 0px 0px 50px;
+transform: rotate(-180deg);
+height: 150px;
+margin-top: -135px;
+}
+
+.received-kwuo-overlay{
+    background: #00C158;
+    opacity: 0.05;
+    /* title card */
+    
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 50px 0px 0px 50px;
+    transform: rotate(-180deg);
+    height: 150px;
+    margin-top: -135px;
+}
+
+
+.kwuo-table td{
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: 1px solid black;
+}
+
+.kwuo-table{
+   margin: auto;
+}
+
+.table1{
+    margin-top: 70px;
+}
+
+div.recent-transactions{
+    margin-top: 100px;
+}
+
+div.recent-transactions h3{
+   text-align: left;
+   font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 34px;
+letter-spacing: 0.05em;
+
+color: #000000;
+margin-bottom: 30px;
+}
+
+table.recent-transactions tr:nth-child(odd){
+    background-color: #e5f3eb;
+   
+}
+
+table.recent-transactions tr:nth-child(even){
+    background-color: rgb(248, 239, 241);
+}
+
+table.recent-transactions th {
+    background-color: white;
+ }
+
+
+h3.trans{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #000000;
+
+}
+
+.total-kwuo h5{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+
+    color: #000000;
+    text-align: left;
+}
+
+.sent-kwuo h5{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+
+    color: #000000;
+    text-align: left;
+}
