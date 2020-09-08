@@ -1,0 +1,158 @@
+.withdrawal-container{
+    background:rgba(0, 193, 88, 0.05); 
+    border-radius: 50px 0px 0px 50px;
+   
+    height: 494px;
+    left: 432px;
+    margin: auto;
+    margin-top: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 80px;
+     /* display: none;  */
+}
+
+.processing-container{
+    background:rgba(0, 193, 88, 0.05); 
+    border-radius: 50px 0px 0px 50px;
+   
+    height: 494px;
+    left: 432px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    display: none;
+}
+
+
+.right-text{
+   text-align: right;
+}
+
+.right-text h5{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+
+}
+
+.right-text h6{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    text-align: right;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+
+}
+
+.center-text{
+ margin-top: 100px;
+}
+.center-text h3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    justify-content: left;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #000000;
+}
+
+.center-text input[type=text]{
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 7px;
+    width: 34.1rem;
+    height: 53px;
+    float: left;
+    padding: 15px;
+    
+}
+
+.center-text a{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+    float: left;
+    color: #000000;
+
+}
+
+.buy{
+    width: 404px;
+    height: 85px;
+    /* kwuo pri */
+    background: #00C158;
+    border-radius: 50px;
+    margin-top: 50px;
+    padding-top: 35px;
+}
+
+.buy-btn{
+    float: right;
+}
+
+.processing-container img{
+    margin-top: 15%;
+}
+
+.processing-container h6{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: right;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+
+@media (max-width: 768.98px) {
+    .withdrawal-container{
+        width: auto;
+        margin-top: 10px;
+    }
+
+    .processing-container{
+        width: auto;
+        margin-top: 10px;
+    }
+    .center-text input[type=text]{
+      width: 15rem;
+    }
+
+    .withdrawal-container{
+        padding-left: 20px;
+    }
+
+    .buy{
+        width: 250px;
+    }
+
+    .processing-container img{
+        margin-top: 30%;
+    }
+    
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import './transaction.component.css';
+import './QRcode.css';
 import clsx from 'clsx';
 import Hidden from '@material-ui/core/Hidden';
 import { makeStyles } from '@material-ui/core/styles';
@@ -19,7 +19,7 @@ import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import User from '@material-ui/icons/PersonOutlineOutlined';
 import Settings from '@material-ui/icons/SettingsOutlined';
 import { mainListItems, secondaryListItems } from '../list-items/list-items';
-import RecentTransactions from '../recent-transactions/recent-transaction';
+import QrcodeLoader from '../qr-code-loader/qr-code-loader';
 
 
 function Copyright() {
@@ -122,7 +122,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 
-export default function Transaction() {
+ function Qrcode() {
   const classes = useStyles();
   const [open, setOpen] = React.useState(true);
   const handleDrawerOpen = () => {
@@ -244,64 +244,12 @@ export default function Transaction() {
       <main className={classes.content}>
         <div className={classes.appBarSpacer} />
         <Container maxWidth="lg" className={classes.container}>
-          <Grid container spacing={3}>
-            <Grid item xs={12} md={5} lg={5}>
-               <h3 className="trans">Transactions</h3>
-               <div className="total-kwuo inline">
-             <div>
-              <h4>Total kwuo received</h4>
-              <h5>1000.00</h5>
-             </div>
-             
-            </div>
-            <div className="received-kwuo-overlay"></div>
-          
-              
-            </Grid>
-            <Grid item xs={12} md={2} lg={2}></Grid>
-            <Grid item xs={12} md={5} lg={5}>
-            <br/><br/>
-                <div className="sent-kwuo inline">
-                <div>
-                <h4>Total kwuo sent</h4>
-                <h5>1000.00</h5>
-                </div>
-            </div>
-            <div className="sent-kwuo-overlay"></div>
-            </Grid>
-          </Grid>
-          {/*<Box pt={4}>
-            <Copyright />
-      </Box>*/}
 
       <Grid container spacing={3}>
-        
-            <Grid item xs={12} md={5} lg={5}>
-              
-                <div className="table1">
-                <h3>Transaction Breakdown</h3>
-                <table className="kwuo-table">
-                <tr>
-                    <td>Today</td>
-                    <td>This week</td>
-                    <td>This month</td>
-                </tr>
-                <tr>
-                    <td><b>2000</b></td>
-                    <td><b>2000</b></td>
-                    <td><b>2000</b></td>
-                </tr>
-                </table>
-            </div>
-                
+            <Grid item xs={12}>
+                <QrcodeLoader/>
             </Grid>
-            <Grid item xs={12} md={2} lg={2}></Grid>
-            
-            <Grid item xs={12} md={5} lg={5}></Grid>
-
-        <Grid item xs={12} md={12} lg={12}>
-        <RecentTransactions/>
-        </Grid>
+            {/*<Grid item xs={12} md={5} lg={5}></Grid>*/}
         
           </Grid>
         </Container>
@@ -309,3 +257,5 @@ export default function Transaction() {
     </div>
   );
 }
+
+export default Qrcode;

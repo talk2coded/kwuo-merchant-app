@@ -7,6 +7,9 @@ import RecoverpasswordPage from './pages/recover-password-page/recover-password-
 import LoadingPage from './pages/loading-state-page/loading-state-page';
 import HomePage from './pages/home-page/home-page';
 import TransactionPage from './pages/transaction-page/transaction-page.jsx';
+import WithdrawalPage from './pages/withdrawal-page/withdrawal-page.jsx';
+import QrcodePage from './pages/generate-QR-code-page/QRcode-page.jsx';
+import SuccessPage from './pages/success-page/success-page.jsx';
 
 function App() {
   return (
@@ -18,6 +21,9 @@ function App() {
         <Route exact path='/loading' component={LoadingPage}/>
         <Route exact path='/home' component={HomePage}/>
         <Route exact path='/transactions' component={TransactionPage}/>
+        <Route exact path='/withdraw' component={WithdrawalPage}/>
+        <Route exact path='/generateQrcode' component={QrcodePage}/>
+        <Route exact path='/success' component={SuccessPage}/>
       </Switch>
     </div>
   );

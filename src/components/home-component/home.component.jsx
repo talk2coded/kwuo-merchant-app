@@ -21,6 +21,7 @@ import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import User from '@material-ui/icons/PersonOutlineOutlined';
 import Settings from '@material-ui/icons/SettingsOutlined';
 import { mainListItems, secondaryListItems } from '../list-items/list-items';
+import RecentTransactions from '../recent-transactions/recent-transaction';
 
 
 function Copyright() {
@@ -123,7 +124,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 
-export default function Dashboard() {
+export default function Home() {
   const classes = useStyles();
   const [open, setOpen] = React.useState(true);
   const handleDrawerOpen = () => {
@@ -314,35 +315,7 @@ export default function Dashboard() {
         </Grid>
 
         <Grid item xs={12} md={12} lg={12}>
-        <div className="recent-transactions">
-        <h3>Recent Transactions</h3>
-        <table class="table recent-transactions">
-        <thead>
-          <tr>
-            <th scope="col">All</th>
-            <th scope="col">Received</th>
-            <th scope="col">Sent</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-          </tr>
-          <tr>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
-          </tr>
-          <tr>
-            <td>Larry</td>
-            <td>the Bird</td>
-            <td>@twitter</td>
-          </tr>
-        </tbody>
-      </table>
-      </div>
+          <RecentTransactions/>
         </Grid>
         
           </Grid>

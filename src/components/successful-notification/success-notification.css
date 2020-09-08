@@ -1,0 +1,37 @@
+.success-container{
+    background:rgba(0, 193, 88, 0.05); 
+    border-radius: 50px 0px 0px 50px;
+    height: 494px;
+    left: 432px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+ 
+ 
+}
+
+.success-container img{
+    margin-top: 100px;
+}
+
+.success-container h6{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+    margin-top: 20px;
+}
+
+@media (max-width: 768.98px) {
+    .success-container{
+        width: auto;
+        margin-top: 10px;
+    }
+
+   
+    }
+    

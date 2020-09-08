@@ -1,0 +1,73 @@
+.kwuo-table td{
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: 1px solid black;
+}
+
+.kwuo-table{
+   margin: auto;
+}
+
+.table1{
+    margin-top: 70px;
+}
+
+div.recent-transactions{
+    margin-top: 100px;
+}
+
+div.recent-transactions h3{
+   text-align: left;
+   font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 34px;
+letter-spacing: 0.05em;
+
+color: #000000;
+margin-bottom: 30px;
+}
+
+table.recent-transactions tr:nth-child(odd){
+    background-color: #e5f3eb;
+   
+}
+
+table.recent-transactions tr:nth-child(even){
+    background-color: rgb(248, 239, 241);
+}
+
+table.recent-transactions th {
+    background-color: white;
+ }
+
+ .recent-transactions :nth-child(odd) td:last-child{
+     font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+
+    /* kwuo pri */
+
+    color: #00C158;
+ } 
+
+ .recent-transactions tr:nth-child(even) td:last-child{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+    
+    color: #FF3A44;
+    
+} 
+  
